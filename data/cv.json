@@ -1,0 +1,161 @@
+{
+  "basics": {
+    "name": "Camila Andrea Perez León",
+    "label": "Comunicadora social y periodista",
+    "image": "",
+    "email": "camilaandreitap@gmail.com",
+    "phone": "3153421775",
+    "url": "https://camilapereza.github.io/",
+    "summary": "Estudiante de Comunicación social y periodismo de la Universidad Distrital Francisco Jose de Caldas, parte del medio de periodismo cultural “El Gato Andante” y miembro de la mesa editorial de Baba Tinta Techotiva. Miembro del grupo de cuentería de la Universidad Distrital.",
+    "profiles": [
+      {
+        "network": "Instagram",
+        "username": "kmila_pereza",
+        "url": "https://www.instagram.com/Kmila_pereza/"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "camila-andrea-perez-león-933122219",
+        "url": "https://www.linkedin.com/in/camila-andrea-perez-le%C3%B3n-933122219"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "El gato andante",
+      "position": "Directora de medio",
+      "url": "https://linktr.ee/elgatoandante",
+      "startDate": "2023",
+      "endDate": "",
+      "summary": "Medio de comunicación cultural",
+      "highlights": [],
+      "url_image": "src/assets/img/project_images/gato_andante.jpg"
+    },
+    {
+      "name": "Babatinta Techotiva",
+      "position": "Correción de estilo y ortografía",
+      "url": "https://linktr.ee/babatinta.techotiva",
+      "startDate": "2023",
+      "endDate": "",
+      "summary": "Editorial de terror independiente",
+      "highlights": [],
+      "url_image": "src/assets/img/project_images/babatinta.jpg"
+    },
+    {
+      "name": "Lo lindo de preguntar",
+      "position": "Reportera",
+      "url": "https://www.youtube.com/channel/UCeLNrppK1fhSbVA2VHJLsWw",
+      "startDate": "2020",
+      "endDate": "2023",
+      "summary": "Medio de comunicación",
+      "highlights": [],
+      "url_image": "src/assets/img/project_images/lindo_preguntar.jpg"
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Distrital Francisco José de Caldas",
+      "url": "https://www.udistrital.edu.co/inicio",
+      "area": "Comunicación Social y Periodismo",
+      "studyType": "Pregrado",
+      "startDate": "2019-01-01",
+      "endDate": "2024-12-01",
+      "score": "5.0",
+      "courses": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Corrección de estilo",
+      "level": "Experto",
+      "keywords": ["gramática", "ortografía", "estilo", "consistencia"]
+    },
+    {
+      "name": "Fotografía editorial",
+      "level": "Avanzado",
+      "keywords": ["composición", "iluminación", "edición de fotos", "retoque"]
+    },
+    {
+      "name": "Revisión y edición de textos",
+      "level": "Avanzado",
+      "keywords": [
+        "revisión de contenido",
+        "edición sustantiva",
+        "coherencia",
+        "claridad"
+      ]
+    },
+    {
+      "name": "Redacción creativa",
+      "level": "Intermedio",
+      "keywords": [
+        "creatividad",
+        "narrativa",
+        "desarrollo de contenido",
+        "copywriting"
+      ]
+    },
+    {
+      "name": "Manejo de software de edición de textos",
+      "level": "Avanzado",
+      "keywords": ["Microsoft Word", "Google Docs", "Scrivener", "Markdown"]
+    },
+    {
+      "name": "Manejo de software de edición de imágenes",
+      "level": "Avanzado",
+      "keywords": ["Adobe Photoshop", "Lightroom", "GIMP", "Canva"]
+    },
+    {
+      "name": "Investigación y verificación de hechos",
+      "level": "Intermedio",
+      "keywords": [
+        "investigación",
+        "fuentes fiables",
+        "verificación",
+        "precisión"
+      ]
+    },
+    {
+      "name": "Gestión de proyectos editoriales",
+      "level": "Intermedio",
+      "keywords": ["planificación", "organización", "coordinación", "plazos"]
+    },
+    {
+      "name": "Comunicación efectiva",
+      "level": "Intermedio",
+      "keywords": [
+        "comunicación verbal",
+        "comunicación escrita",
+        "presentación",
+        "escucha activa"
+      ]
+    },
+    {
+      "name": "Adaptación a guías de estilo",
+      "level": "Avanzado",
+      "keywords": [
+        "AP Stylebook",
+        "Chicago Manual of Style",
+        "MLA Handbook",
+        "guías internas"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Fotografía",
+      "keywords": []
+    },
+    {
+      "name": "Cine",
+      "keywords": []
+    }
+  ],
+  "projects": []
+}
