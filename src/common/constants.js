@@ -3,7 +3,7 @@ export const SocialNetworksIcons = [
   { name: "LinkedIn", icon: "linkedin-square" },
   { name: "Facebook", icon: "facebook-square" },
   { name: "Twitter", icon: "" },
-  { name: "Github", icon: "" },
+  { name: "Github", icon: "github" },
 ];
 
 export const ContactInformationIcons = [

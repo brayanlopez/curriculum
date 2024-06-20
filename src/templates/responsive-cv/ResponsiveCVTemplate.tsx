@@ -1,8 +1,8 @@
 import "boxicons";
 import "./ResponsiveCVTemplate.css";
-import { SocialNetworksIcons } from "../../common/constants.js";
 // @ts-expect-error comment
-import data from "../../../data/cv.json";
+import { SocialNetworksIcons } from "../../common/constants.js";
+import data from "../../../data/cv_2.json";
 
 const ResponsiveCVTemplate = () => {
   const { basics, work } = data;
@@ -31,7 +31,7 @@ const ResponsiveCVTemplate = () => {
   showMenu("nav-toggle", "nav-menu");
 
   return (
-    <div>
+    <div className="scale-cv">
       {/* <!--========== HEADER ==========--> */}
       <header className="l-header" id="header">
         <nav className="nav bd-container">
@@ -135,18 +135,22 @@ const ResponsiveCVTemplate = () => {
               <h2 className="section-title">Education</h2>
 
               <div className="education_container bd-grid">
-                <div className="education_content">
-                  <span className="education_rounder"></span>
-                  <span className="education_line"></span>
+                {data.education.map((education) => (
+                  <div className="education_content">
+                    <span className="education_rounder"></span>
+                    <span className="education_line"></span>
 
-                  <div className="education_data bd-grid">
-                    <h3 className="education_title">WEB DEVELOPER</h3>
-                    <span className="education_studies">
-                      University of studies
-                    </span>
-                    <span className="education_year">2010 - 2015</span>
+                    <div className="education_data bd-grid">
+                      <h3 className="education_title">{education.area}</h3>
+                      <span className="education_studies">
+                        {education.institution}
+                      </span>
+                      <span className="education_year">
+                        {education.startDate} - {education.endDate}
+                      </span>
+                    </div>
                   </div>
-                </div>
+                ))}
               </div>
             </section>
             {/* <!--========== SKILLS  ==========--> */}
@@ -169,27 +173,26 @@ const ResponsiveCVTemplate = () => {
               <div className="experience_container bd-grid">
                 {/* TODO: complete this part */}
                 {work.map((work) => (
-                  <>{work.name}</>
+                  <div className="experience_content">
+                    <div className="experience_time">
+                      <span className="experience_rounder"></span>
+                      <span className="experience_line"></span>
+                    </div>
+                    <div className="experience_data bd-grid">
+                      <h3 className="experience_title">{work.name}</h3>
+                      <span className="experience_company">
+                        From {work.startDate} to {work.endDate || "currently"} |{" "}
+                        {work.position}
+                      </span>
+                      <p className="experience_description">{work.summary}</p>
+                      <ul>
+                        {work.highlights.map((highlight) => (
+                          <li key={highlight}>{highlight}</li>
+                        ))}
+                      </ul>
+                    </div>
+                  </div>
                 ))}
-                <div className="experience_content">
-                  <div className="experience_time">
-                    <span className="experience_rounder"></span>
-                    <span className="experience_line"></span>
-                  </div>
-                  <div className="experience_data bd-grid">
-                    <h3 className="experience_title">MASTER OF DESIGN</h3>
-                    <span className="experience_company">
-                      From 2013 to 2015 | tech lead
-                    </span>
-                    <p className="experience_description">
-                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                      Perspiciatis architecto suscipit accusamus deleniti,
-                      praesentium voluptates commodi explicabo nemo corrupti
-                      soluta laboriosam a, dolore, fugit cum id neque quos
-                      asperiores magnam.
-                    </p>
-                  </div>
-                </div>
               </div>
             </section>
             {/* <!--========== CERTIFICATES ==========--> */}
@@ -229,15 +232,12 @@ const ResponsiveCVTemplate = () => {
               <h2 className="section-title">Languages</h2>
               <div className="languages __ container">
                 <ul className="languages __ content bd-grid">
-                  <li className="languages __ name">
-                    <span className="languages __ circle"></span> Spanish
-                  </li>
-                  <li className="languages __ name">
-                    <span className="languages __ circle"></span> English
-                  </li>
-                  <li className="languages __ name">
-                    <span className="languages __ circle"></span> French
-                  </li>
+                  {data.languages.map((language) => (
+                    <li className="languages __ name">
+                      <span className="languages __ circle"></span>{" "}
+                      {language.language}
+                    </li>
+                  ))}
                 </ul>
               </div>
             </section>

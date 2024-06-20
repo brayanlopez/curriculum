@@ -1,0 +1,103 @@
+{
+  "basics": {
+    "name": "Brayan Arnulfo López González",
+    "label": "Software Developer",
+    "image": "",
+    "email": "balg.lg55@gmail.com",
+    "phone": "3238000148",
+    "url": "https://brayanlopez.github.io/",
+    "summary": "Systems Engineer",
+    "profiles": [
+      {
+        "network": "Github",
+        "username": "brayanlopez",
+        "url": "https://github.com/brayanlopez"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "brayanlopezg",
+        "url": "https://www.linkedin.com/in/brayanlopezg/"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "NTT Data",
+      "position": "Engineer",
+      "url": "https://co.nttdata.com/",
+      "startDate": "2023-06-13",
+      "endDate": "",
+      "summary": "",
+      "highlights": [
+        "Implement user interfaces according to the provided designs using the technology necessary to develop the project.",
+        "Implement functionality according to provided use cases.",
+        "Support, solution and correction of bugs or errors."
+      ]
+    },
+    {
+      "name": "Sophos Solutions",
+      "position": "Associate Consultant",
+      "url": "https://sophossolutions.gft.com/es",
+      "startDate": "2021-07-01",
+      "endDate": "2023-06-13",
+      "summary": "",
+      "highlights": [
+        "Interpret the client's requirements to develop the components within the established environments        ",
+        "Provide technical support to the client during and after the implementation of the solution "
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Universidad Distrital Francisco José de Caldas",
+      "url": "https://www.udistrital.edu.co/inicio",
+      "area": "Systems Engineering",
+      "studyType": "Pregrado",
+      "startDate": "2016-01-01",
+      "endDate": "2024-12-01",
+      "score": "5.0",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Escrituras de Bogotá",
+      "date": "2019-02-01",
+      "awarder": "",
+      "summary": "Publication of a text in the book: Bogotá Cuenta, Una ciudad que se escribe."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Frontend",
+      "level": "Semi-senior",
+      "keywords": ["HTML/JSX", "Javascript / Typescrip", "React / Redux"]
+    },
+    {
+      "name": "Multi-platform",
+      "level": "Semi-senior",
+      "keywords": ["React Native", "Dart / Flutter"]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Intermediate"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Fotografía",
+      "keywords": []
+    },
+    {
+      "name": "Cine",
+      "keywords": []
+    }
+  ],
+  "projects": []
+}
