@@ -4,9 +4,14 @@
     "label": "Software Developer",
     "image": "",
     "email": "balg.lg55@gmail.com",
-    "phone": "3238000148",
+    "phone": "+57 3238000148",
     "url": "https://brayanlopez.github.io/",
-    "summary": "Systems Engineer",
+    "summary": "Software Developer with a strong background in Systems Engineering and extensive experience in both frontend and multi-platform development. I specialize in interpreting client requirements, implementing user interfaces, and providing technical support. My technical expertise includes HTML, JavaScript/TypeScript, React/Redux, React Native, and Dart/Flutter.",
+    "location": {
+      "city": "Bogotá",
+      "countryCode": "CO",
+      "region": "Cundinamarca"
+    },
     "profiles": [
       {
         "network": "Github",
@@ -27,11 +32,13 @@
       "url": "https://co.nttdata.com/",
       "startDate": "2023-06-13",
       "endDate": "",
-      "summary": "",
+      "summary": "Responsible for analyzing user stories, implementing user interfaces, and ensuring the functionality and quality of software products. Additionally, managed the development process using modern software engineering practices and tools to ensure efficient, scalable solutions.",
       "highlights": [
-        "Implement user interfaces according to the provided designs using the technology necessary to develop the project.",
-        "Implement functionality according to provided use cases.",
-        "Support, solution and correction of bugs or errors."
+        "Develop user interfaces using technologies such as HTML5, CSS3, JavaScript, and modern frameworks like ReactJS and Angular to align with user requirements and design specifications.",
+        "Implement responsive web designs and collaborated with the design team to ensure UI/UX consistency across devices.",
+        "Integrate automated unit tests using tools like Jest or Mocha to ensure the quality and reliability of the application's codebase.",
+        "Collaborated with backend teams to consume RESTful APIs and integrate microservices for improved system architecture and scalability.",
+        "Provided ongoing support for applications, troubleshooting issues, and quickly resolving bugs to maintain high service availability."
       ]
     },
     {
@@ -40,10 +47,12 @@
       "url": "https://sophossolutions.gft.com/es",
       "startDate": "2021-07-01",
       "endDate": "2023-06-13",
-      "summary": "",
+      "summary": "Focused on developing components, testing, providing technical support, and creating documentation to meet client needs",
       "highlights": [
-        "Interpret the client's requirements to develop the components within the established environments        ",
-        "Provide technical support to the client during and after the implementation of the solution "
+        "Interpret the client's requirements to develop the components within the established environments, ensuring the client's intended use of the solution",
+        "Structure and execute the master test plan (unitary, functional/non-functional and automation) through Validation and Verification activities which facilitate the early detection of bugs that have been injected into the system and compliance with the established requirements",
+        "Provide technical support to the client during and after the implementation of the solution seeking to facilitate its use.",
+        "Build the documentation (manuals, formats, among others) inherent to each stage of the project life cycle according to its context, to meet the quality standards defined within the methodology and those expected by the client."
       ]
     }
   ],
@@ -52,9 +61,9 @@
       "institution": "Universidad Distrital Francisco José de Caldas",
       "url": "https://www.udistrital.edu.co/inicio",
       "area": "Systems Engineering",
-      "studyType": "Pregrado",
-      "startDate": "2016-01-01",
-      "endDate": "2024-12-01",
+      "studyType": "Bachelor's degree",
+      "startDate": "2016-02-01",
+      "endDate": "2025-06-13",
       "score": "5.0",
       "courses": []
     }
@@ -70,34 +79,44 @@
   "skills": [
     {
       "name": "Frontend",
-      "level": "Semi-senior",
-      "keywords": ["HTML/JSX", "Javascript / Typescrip", "React / Redux"]
+      "level": "Mid-level",
+      "keywords": [
+        "HTML/JSX",
+        "SCSS/CSS",
+        "Javascript/Typescript",
+        "React/Redux/Astro/Next.js",
+        "Angular"
+      ]
     },
     {
       "name": "Multi-platform",
-      "level": "Semi-senior",
-      "keywords": ["React Native", "Dart / Flutter"]
+      "level": "Mid-level",
+      "keywords": ["React Native", "Dart/Flutter"]
+    },
+    {
+      "name": "Backend",
+      "level": "Basic",
+      "keywords": ["Java/Spring Boot", "Python/FastAPI", "Node.js/Express"]
+    },
+    {
+      "name": "DevOps",
+      "level": "Basic",
+      "keywords": ["Azure"]
+    },
+    {
+      "name": "Soft Skills",
+      "level": "Advanced",
+      "keywords": ["Teamwork", "Communication", "Problem Solving", "Mentoring"]
     }
   ],
   "languages": [
-    {
-      "language": "Spanish",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Intermediate"
-    }
+    { "language": "Spanish", "fluency": "Native speaker" },
+    { "language": "English", "fluency": "Intermediate" }
   ],
   "interests": [
-    {
-      "name": "Fotografía",
-      "keywords": []
-    },
-    {
-      "name": "Cine",
-      "keywords": []
-    }
+    { "name": "Theater", "keywords": [] },
+    { "name": "Photography", "keywords": [] },
+    { "name": "Cine", "keywords": [] }
   ],
   "projects": []
 }
